@@ -1,0 +1,71 @@
+body {
+    background-image: url("../admin/assets/images/bubuhantik.jpeg");
+    
+    background-repeat: no-repeat;
+   background-size:cover
+ }
+/* Style untuk form */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Style untuk judul form */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Style untuk label */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Style untuk input text */
+input[type="text"],
+input[type="date"],
+input[type="time"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Style untuk tombol submit */
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Style hover pada tombol submit */
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Style untuk pesan kesalahan */
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Style untuk pesan berhasil */
+.success-message {
+    color: green;
+    font-size: 14px;
+    margin-top: 5px;
+}

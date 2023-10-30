@@ -1,0 +1,43 @@
+/* Reset beberapa default styling browser */
+body, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Style elemen navigasi */
+nav {
+    background-color: #333; /* Warna latar belakang */
+    color: #fff; /* Warna teks */
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    color: #fff; /* Warna teks link */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline; /* Efek saat hover pada link */
+}
+
+/* Style konten utama */
+main {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f4; /* Warna latar belakang */
+    border: 1px solid #ddd; /* Garis tepi */
+    border-radius: 5px; /* Sudut elemen dibulatkan */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Bayangan elemen */
+}
